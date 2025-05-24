@@ -1,5 +1,7 @@
 # FlowerEngine-TS
 
+<img src="https://files.peakd.com/file/peakd-hive/flowerengine/nectarflower_profile.png" alt="FlowerEngine Logo" width="150"/>
+
 A TypeScript library for retrieving and processing Hive-Engine node information from the `flowerengine` account's JSON metadata. This library helps in identifying active, failing, and optimal Hive-Engine nodes.
 
 More about this account in HIVE [here](https://peakd.com/@flowerengine)
