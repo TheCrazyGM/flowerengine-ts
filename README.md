@@ -1,13 +1,3 @@
------
-
-¡Tienes toda la razón\! Mil disculpas, me distraje y puse enlaces externos en la tabla de contenidos en lugar de enlaces internos a los encabezados de la misma página. Mi error.
-
-He corregido la **Tabla de Contenidos** para que los enlaces apunten a las secciones dentro del mismo documento. Ahora, cuando hagas clic en un elemento de la tabla, te llevará directamente a la sección correspondiente en el `README.md`.
-
-Aquí tienes el `README.md` corregido:
-
------
-
 # FlowerEngine-TS
 
 A TypeScript library for retrieving and processing Hive-Engine node information from the `flowerengine` account's JSON metadata. This library helps in identifying active, failing, and optimal Hive-Engine nodes.
