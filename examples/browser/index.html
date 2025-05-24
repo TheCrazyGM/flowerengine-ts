@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerEngine-TS Browser Example</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FlowerEngine Node Information</h1>
+        <p>
+            This example demonstrates fetching Hive-Engine node information
+            from the <code>flowerengine</code> account's JSON metadata directly in the browser.
+        </p>
+        <p class="more-projects">
+            Discover more projects by TheCrazyGM at <a href="https://thecrazygm.com/" target="_blank" rel="noopener noreferrer">thecrazygm.com</a>.
+        </p>
+        <button id="fetchNodesButton">Fetch Node Info</button>
+
+        <div id="results">
+            <h2>Results:</h2>
+            <div class="result-section">
+                <h3>Best Node:</h3>
+                <pre id="bestNodeDisplay">Click the button to fetch...</pre>
+            </div>
+            <div class="result-section">
+                <h3>Active Nodes:</h3>
+                <pre id="activeNodesDisplay">Click the button to fetch...</pre>
+            </div>
+            <div class="result-section">
+                <h3>Failing Nodes:</h3>
+                <pre id="failingNodesDisplay">Click the button to fetch...</pre>
+            </div>
+            <div class="result-section">
+                <h3>Full Metadata Report (sample):</h3>
+                <pre id="fullReportDisplay">Click the button to fetch...</pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@hiveio/dhive/dist/dhive.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

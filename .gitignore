@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+dist/          # Carpeta de salida del compilador TypeScript
+npm-debug.log* # Archivos de log de NPM
+yarn-debug.log*
+yarn-error.log*
+.npm/
+*.tgz          # Archivos de paquete tarball (npm pack)
+.env           # Archivos de variables de entorno
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# TypeScript
+*.tsbuildinfo  # Archivos de información de compilación de TypeScript
+
+# Logs
+logs/
+*.log
+
+# Editores / IDEs
+.vscode/       # Archivos de configuración de VS Code (opcional, si no quieres compartir configs de equipo)
+.idea/         # Archivos de IntelliJ IDEA
+.DS_Store      # Archivos de macOS
+Thumbs.db      # Archivos de Windows
+
+# Cobertura de tests
+coverage/
+
+# Varios
+.cache/
+.pnp/
+.pnp.js
